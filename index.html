@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="default.css" />
+    <link rel="stylesheet" href="popup.css" />
+
+    <link
+      rel="stylesheet"
+      href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <!-- used for mail, camera, phone icons -->
+
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
+    <!-- displays the icon in the internet`s tab  -->
+
+    <title>EasyAccommodation - The Cheapest Housing in Eindhoven !</title>
+  </head>
+  <body>
+    <header>
+      <!-- navigation bar of the whole website-->
+      <a href="index.html" class="logo"><img src="images/logo.png" height="50px"></a>
+
+      <nav class="navbar">
+         <a href="#home">Home</a>
+            <a href="#team">Team</a>
+        <a href="allproperties.html">All Properties</a>
+        <a href="faq.html">FAQ</a>
+      <!--  <a href="#">For Landlords</a> -->
+        <a href="#contactpage">Contact</a>
+      </nav>
+
+      <div class="icons">
+        <div id="menu-bars" class="fas fa-bars"></div>
+        <a href="login.html" target="_blank" class="fas fa-user"></a>
+        <a class="fas fa-solid fa-moon" id="icon"></a>
+      </div>
+    </header>
+    <!-- end of navigation bar -->
+
+    <section class="home" id="home">
+      <!-- find your fit part of homepage -->
+
+      <form action="allproperties.html" method="get">
+        <h3>Find your Fit</h3>
+
+        <div class="inputBox">
+          <select name="type" id="">
+            <option value="" disabled hidden selected>
+              Type of Accommodation
+            </option>
+            <option value="Type of Accomodation">Type of Accommodation</option>
+            <option value="Room">Room</option>
+            <option value="Studio">Studio</option>
+            <option value="House">House</option>
+            <option value="Apartment">Apartment</option>
+          </select>
+          <select name="priceFrom" id="">
+            <option value="" disabled hidden selected>Min.</option>
+            <option value="0">€ 0</option>
+            <option value="380">€ 380</option>
+            <option value="420">€ 420</option>
+            <option value="500">€ 500</option>
+            <option value="580">€ 580</option>
+            <option value="620">€ 620</option>
+            <option value="680">€ 680</option>
+            <option value="750">€ 750</option>
+            <option value="800">€ 800</option>
+            <option value="900">€ 900</option>
+            <option value="1000">€ 1000</option>
+          </select>
+          <select name="priceTo" id="">
+            <option value="" disabled hidden selected>Max.</option>
+            <option value="0">€ 0</option>
+            <option value="380">€ 380</option>
+            <option value="420">€ 420</option>
+            <option value="500">€ 500</option>
+            <option value="580">€ 580</option>
+            <option value="620">€ 620</option>
+            <option value="680">€ 680</option>
+            <option value="750">€ 750</option>
+            <option value="800">€ 800</option>
+            <option value="900">€ 900</option>
+            <option value="1000">€ 1000</option>
+          </select>
+        </div>
+        <input type="submit" value="Search" class="btn" />
+      </form>
+    </section>
+    <!-- end of part -->
+
+    <section class="featuredproperty" id="featuredproperty">
+      <!-- featured properties part of the homepage-->
+
+      <h1 class="heading"><span>Featured</span> Properties</h1>
+
+      <div class="box-container">
+        <div class="box">
+          <div class="images">
+            <img src="images/img-1.jpg" alt="" />
+            <div class="information">
+              <h3>Studio</h3>
+              <h3>For Rent</h3>
+            </div>
+            <div class="icons">
+              <a class="fas fa-camera"><h3>4</h3></a>
+            </div>
+          </div>
+          <div class="content">
+            <div class="price">
+              <h3>€420 / month</h3>
+              <a href="mailto:petarp@abv.bg" class="fas fa-envelope"></a>
+              <a href="tel:+359762357189" class="fas fa-phone"></a>
+            </div>
+            <div class="location">
+              <h3>Kapelstraat 68 C</h3>
+              <p>5591 HG, Heeze</p>
+            </div>
+            <div class="buttons">
+              <a href="#" class="btn">View Details</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="images">
+            <img src="images/img-2.jpg" alt="" />
+            <div class="information">
+              <h3>House</h3>
+              <h3>For Sale</h3>
+            </div>
+            <div class="icons">
+              <a class="fas fa-camera"><h3>4</h3></a>
+            </div>
+          </div>
+          <div class="content">
+            <div class="price">
+              <h3>€650 / month</h3>
+              <a href="mailto:owen.g@gmail.com" class="fas fa-envelope"></a>
+              <a href="tel:+31123467581" class="fas fa-phone"></a>
+            </div>
+            <div class="location">
+              <h3>Wattstraat 23 kamer 7</h3>
+              <p>5621 AH, Eindhoven</p>
+            </div>
+            <div class="buttons">
+              <a href="#" class="btn">View Details</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="images">
+            <img src="images/img-3.jpg" alt="" />
+            <div class="information">
+              <h3>Apartment</h3>
+              <h3>For Rent</h3>
+            </div>
+            <div class="icons">
+              <a class="fas fa-camera"><h3>4</h3></a>
+            </div>
+          </div>
+          <div class="content">
+            <div class="price">
+              <h3>€830 / month</h3>
+              <a href="mailto:gwenstc@gmail.com" class="fas fa-envelope"></a>
+              <a href="tel:+31431529561" class="fas fa-phone"></a>
+            </div>
+            <div class="location">
+              <h3>Dasstraat 26 Kamer 4</h3>
+              <p>5622 AS, Eindhoven</p>
+            </div>
+            <div class="buttons">
+              <a href="#" class="btn">View Details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="allproperties.html" class="btn1">All Properties</a>
+    </section>
+    <!-- end of part -->
+
+    <section class="services" id="services">
+      <!-- our services part of homepage -->
+
+      <h1 class="heading">Why <span>EasyAccommodation</span> ?</h1>
+
+      <div class="box-container">
+        <div class="box">
+          <img src="images/For sale.gif" height="200px" alt="" />
+          <h3>Cheap Housing</h3>
+          <p>Our services are starting from €380 !</p>
+        </div>
+
+        <div class="box">
+          <img src="images/Currency.gif" height="200px" alt="" />
+          <h3>Diverse Offers</h3>
+          <p>We have a large collection of houses, apartments and studios !</p>
+        </div>
+
+        <div class="box">
+          <img src="images/Charts.gif" height="200px" alt="" />
+          <h3>Profit for all</h3>
+          <p>We ensure you that your property will have an optimal return</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="team" id="team">
+      <!-- our team part of homepage -->
+      <h1 class="heading"><span>Our</span> Team</h1>
+
+      <div class="box-container">
+        <div class="box">
+          <a
+            href="mailto:a.karamirev@eaccommodation.com"
+            class="fas fa-envelope"
+          ></a>
+          <a href="tel:+359124689225" class="fas fa-phone"></a>
+          <img src="images/aleksandar.png" />
+          <h3>Aleksandar Karamirev</h3>
+          <span> Senior Manager </span>
+
+          <div class="buttons">
+            <a href="aleksandar.html" class="btn">About Me</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <a
+            href="mailto:c.marlin@eaccommodation.com"
+            class="fas fa-envelope"
+          ></a>
+          <a href="tel:+31717474286" class="fas fa-phone"></a>
+          <img src="images/chris.png" />
+          <h3>Christopher Marlin</h3>
+          <span> Marketing Manager </span>
+
+          <div class="buttons">
+            <a href="chris.html" class="btn">About Me</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <a
+            href="mailto:m.vasilevska@eaccommodation.com"
+            class="fas fa-envelope"
+          ></a>
+          <a href="tel:+359477318192" class="fas fa-phone"></a>
+          <img src="images/mia.png" />
+          <h3>Mia Vasilevska</h3>
+          <span> Real Estate Agent </span>
+
+          <div class="buttons">
+            <a href="mia.html" class="btn">About Me</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end of part -->
+
+    <section class="contactpage" id="contactpage">
+      <!-- contact us part of homepage + location + submit message part-->
+
+      <h1 class="heading"><span>Contact</span> Us</h1>
+
+      <div class="iconclass">
+        <div class="icons">
+          <img src="images/Call.gif" alt="" />
+          <h3>By Phone</h3>
+          <p><a href="tel:+31717771531">+31-71-777-1531</a></p>
+          <p><a href="tel:+359776345819">+359776345819</a></p>
+        </div>
+
+        <div class="icons">
+          <img src="images/Locations.gif" alt="" />
+          <h3>Visit Us</h3>
+          <p class="color">Luchthavenweg 25, 5657 EA Eindhoven</p>
+        </div>
+      </div>
+
+      <div class="messagebox">
+        <form method="get" action="#popup4">
+          <div class="inputBox">
+            <input type="text" name="fname" placeholder="First Name" required>
+            <input type="text" placeholder="Last Name" required>
+            <input
+              type="email"
+              placeholder="example@example.com"
+              required="required"
+              minlength="4"
+            />
+            <input type="text" placeholder="Subject" required="required" />
+          </div>
+          <textarea
+            name=""
+            placeholder="Your Message"
+            cols="30"
+            rows="10"
+          ></textarea>
+          <p><input type="submit" class="btn" value="Send Message"></input></p>
+          <div id="popup4" class="overlay">
+            <div class="popup">
+              <h2>Your message was successfully sent and we will contact you soon :)</h2>
+              <a href="index.html" class="btn">Go Back</a>
+            </div>
+          </div>
+        </form>
+        <iframe
+          class="location"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2486.4196272086674!2d5.376242615767876!3d51.45045157962583!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c6db0ba3a1c70f%3A0x8ef54895f717233a!2sEindhoven%20Airport!5e0!3m2!1sen!2snl!4v1638803210179!5m2!1sen!2snl"
+          allowfullscreen=""
+          loading="lazy"
+        ></iframe>
+      </div>
+      <footer>
+        <button class="topBtn">^</button>
+      </footer>
+    </section>
+    <!-- end of parts -->
+
+    <section class="footer">
+      <!-- footer of the homepage-->
+      <div class="footer-container">
+        <div class="credit">2021 EasyAccommodation | All rights reserved!</div>
+      </div>
+    </section>
+    <!-- end of part -->
+
+    <!-- used scripts -->
+    <script src="navscript.js"></script>
+    <script src="topbutton.js"></script>
+    <script src="darkmode.js"></script>
+  </body>
+</html>

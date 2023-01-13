@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="login.css">
+
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">  <!-- displays the icon in the internet`s tab  -->
+
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">  <!-- used for house logo -->
+
+
+    <title>Log In</title>
+  </head>
+    <body>
+    <div class="container" id="container">  <!-- whole log in sign up part  -->
+  	<div class="form-container sign-up-container">
+  		<form action="index.html">
+        <a href="index.html" class="logo"><i class="fas fa-home"></i></a> <!-- goes to homepage  -->
+  			<h1>Create an Account</h1>
+  			<input type="text" placeholder="Name" required> <!-- placeholders for name password and email  -->
+        <input type="text" placeholder="Account name" required>
+  			<input type="email" placeholder="example@example.com" required>
+  			<input type="password" placeholder="Password" required>
+  			<button>Sign Up</button>
+  		</form>
+  	</div>
+  	<div class="form-container sign-in-container">
+  		<form action="index.html">
+        <a href="index.html" class="logo"><i class="fas fa-home"></i></a>  <!-- goes to homepage  -->
+  			<h1>Sign In</h1>
+  			<input type="email" placeholder="example@example.com" required>  <!-- placeholders for password and email  -->
+  			<input type="password" placeholder="Password" required>
+  		<button>Sign In</button>
+  		</form>
+  	</div>
+  	<div class="overlay-container">  <!-- overlay for already registered and have an account  -->
+  		<div class="overlay">
+  			<div class="overlay-panel overlay-left">
+  				<h1>Already registered ?</h1>
+  				<p>Click on the button and enter your account details to proceed.</p>
+  				<button class="ghost" id="signIn">Sign In</button>
+  			</div>
+  			<div class="overlay-panel overlay-right">
+  				<h1>Hello there !</h1>
+  				<p>To register press the button and fill in your details.</p>
+  				<button class="ghost" id="signUp">Sign Up</button>
+  			</div>
+  		</div>
+  	</div>  <!-- end of part  -->
+  </div>  <!-- end of container part  -->
+  <script src="login.js"></script>
+    </body>
+    </html>
